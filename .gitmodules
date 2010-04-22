@@ -1,6 +1,6 @@
 [submodule "components"]
 	path = components
-	url = ./components.git
+	url = ../components.git
 [submodule "sric"]
 	path = sric
-	url = ./interconnect-hw.git
+	url = ../interconnect-hw.git
