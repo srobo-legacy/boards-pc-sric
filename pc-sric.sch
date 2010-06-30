@@ -446,6 +446,8 @@ T 15900 49800 5 10 1 1 0 0 1
 refdes=D?
 T 15900 49600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 14500 49100 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 17500 49100 1 0 0 TVS-dual-ca.sym
 {
@@ -455,6 +457,8 @@ T 18900 49800 5 10 1 1 0 0 1
 refdes=D?
 T 18900 49600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 17500 49100 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 15100 48600 1 0 0 gnd-1.sym
 N 15200 49100 15200 48900 4
@@ -524,6 +528,8 @@ T 15500 65100 5 10 1 1 0 0 1
 refdes=D?
 T 15500 64900 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 14100 64400 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 17100 64400 1 0 0 TVS-dual-ca.sym
 {
@@ -533,6 +539,8 @@ T 18500 65100 5 10 1 1 0 0 1
 refdes=D?
 T 18500 64900 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 17100 64400 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 14700 63900 1 0 0 gnd-1.sym
 N 14800 64400 14800 64200 4
@@ -582,6 +590,8 @@ T 15500 61800 5 10 1 1 0 0 1
 refdes=D?
 T 15500 61600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 14100 61100 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 17100 61100 1 0 0 TVS-dual-ca.sym
 {
@@ -591,6 +601,8 @@ T 18500 61800 5 10 1 1 0 0 1
 refdes=D?
 T 18500 61600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 17100 61100 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 14700 60600 1 0 0 gnd-1.sym
 N 14800 61100 14800 60900 4
@@ -660,6 +672,8 @@ T 15500 68300 5 10 1 1 0 0 1
 refdes=D?
 T 15500 68100 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 14100 67600 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 17100 67600 1 0 0 TVS-dual-ca.sym
 {
@@ -669,6 +683,8 @@ T 18500 68300 5 10 1 1 0 0 1
 refdes=D?
 T 18500 68100 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
+T 17100 67600 5 10 0 0 0 0 1
+footprint=SOT23
 }
 C 14700 67100 1 0 0 gnd-1.sym
 N 14800 67600 14800 67400 4
