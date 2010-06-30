@@ -502,6 +502,8 @@ T 12800 67400 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 13600 66500 5 10 1 1 0 0 1
 value=sr-fuse-r50-1206
+T 12800 66200 5 10 0 0 0 0 1
+footprint=1206
 }
 C 12800 65500 1 0 0 polyfuse-1.sym
 {
@@ -511,6 +513,8 @@ T 12800 66700 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 12600 65400 5 10 1 1 0 0 1
 value=sr-fuse-r50-1206
+T 12800 65500 5 10 0 0 0 0 1
+footprint=1206
 }
 C 14100 64400 1 0 0 TVS-dual-ca.sym
 {
@@ -556,6 +560,8 @@ T 12800 64100 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 13600 63200 5 10 1 1 0 0 1
 value=sr-fuse-r50-1206
+T 12800 62900 5 10 0 0 0 0 1
+footprint=1206
 }
 C 12800 62200 1 0 0 polyfuse-1.sym
 {
@@ -565,6 +571,8 @@ T 12800 63400 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 12600 62000 5 10 1 1 0 0 1
 value=sr-fuse-r50-1206
+T 12800 62200 5 10 0 0 0 0 1
+footprint=1206
 }
 C 14100 61100 1 0 0 TVS-dual-ca.sym
 {
@@ -630,6 +638,8 @@ T 12800 70600 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 13600 69700 5 10 1 1 0 0 1
 value=sr-fuse-r50-1206
+T 12800 69400 5 10 0 0 0 0 1
+footprint=1206
 }
 C 12800 68700 1 0 0 polyfuse-1.sym
 {
@@ -639,6 +649,8 @@ T 12800 69900 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 12600 68600 5 10 1 1 0 0 1
 value=sr-fuse-r50-1206
+T 12800 68700 5 10 0 0 0 0 1
+footprint=1206
 }
 C 14100 67600 1 0 0 TVS-dual-ca.sym
 {
