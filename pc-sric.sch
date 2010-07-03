@@ -4,7 +4,7 @@ C 3100 55600 1 0 0 sric-conn.sym
 T 2100 59700 5 10 0 0 0 0 1
 device=none
 T 3100 59200 5 10 1 1 0 0 1
-refdes=S?
+refdes=S1
 T 3600 58100 5 20 1 1 90 3 1
 comment=IN
 T 3600 56700 5 20 1 1 90 3 1
@@ -13,7 +13,7 @@ comment=OUT
 C 48700 55300 1 0 0 FT232RL-1.sym
 {
 T 51500 60900 5 10 1 1 0 6 1
-refdes=IC?
+refdes=IC1
 T 50100 61100 5 10 0 0 0 0 1
 device=FT232RL
 T 50100 61300 5 10 0 0 0 0 1
@@ -24,7 +24,7 @@ value=sr-ic-ft232rl
 C 38400 39600 1 0 0 MSP430F167.sym
 {
 T 41100 60900 5 10 1 1 0 6 1
-refdes=IC?
+refdes=IC2
 T 39700 61100 5 10 0 0 0 0 1
 device=msp430f167
 T 39700 61300 5 10 0 0 0 0 1
@@ -37,7 +37,7 @@ C 33500 62700 1 90 0 capacitor-1.sym
 T 32800 62900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 33600 63400 5 10 1 1 180 0 1
-refdes=C?
+refdes=C1
 T 32600 62900 5 10 0 0 90 0 1
 symversion=0.1
 T 33300 62900 5 10 1 1 0 0 1
@@ -50,7 +50,7 @@ C 32500 62700 1 90 0 capacitor-1.sym
 T 31800 62900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 32600 63400 5 10 1 1 180 0 1
-refdes=C?
+refdes=C2
 T 31600 62900 5 10 0 0 90 0 1
 symversion=0.1
 T 32300 62900 5 10 1 1 0 0 1
@@ -63,7 +63,7 @@ C 31500 62700 1 90 0 capacitor-1.sym
 T 30800 62900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 31600 63400 5 10 1 1 180 0 1
-refdes=C?
+refdes=C3
 T 30600 62900 5 10 0 0 90 0 1
 symversion=0.1
 T 31300 62900 5 10 1 1 0 0 1
@@ -76,7 +76,7 @@ C 30400 62700 1 90 0 capacitor-1.sym
 T 29700 62900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 30500 63400 5 10 1 1 180 0 1
-refdes=C?
+refdes=C4
 T 29500 62900 5 10 0 0 90 0 1
 symversion=0.1
 T 30200 62900 5 10 1 1 0 0 1
@@ -89,7 +89,7 @@ C 37700 59400 1 90 0 resistor-2.sym
 T 37350 59800 5 10 0 0 90 0 1
 device=RESISTOR
 T 37400 60100 5 10 1 1 180 0 1
-refdes=R?
+refdes=R1
 T 37400 59900 5 10 1 1 180 0 1
 value=sr-r-100k
 }
@@ -124,7 +124,7 @@ C 37700 51700 1 90 0 crystal-1.sym
 T 37200 51900 5 10 0 0 90 0 1
 device=CRYSTAL
 T 37400 51900 5 10 1 1 90 0 1
-refdes=U?
+refdes=U1
 T 37000 51900 5 10 0 0 90 0 1
 symversion=0.1
 T 37200 51900 5 10 1 1 90 0 1
@@ -141,7 +141,7 @@ N 37600 51600 37600 51700 4
 C 31300 55600 1 0 1 msp430-4wire.sym
 {
 T 31000 58800 5 10 1 1 0 6 1
-refdes=J?
+refdes=J1
 T 31000 59100 5 10 0 0 0 6 1
 device=MSP430-4WIRE
 T 31000 59500 5 10 0 0 0 6 1
@@ -239,7 +239,7 @@ C 15200 56700 1 90 0 resistor-2.sym
 T 14850 57100 5 10 0 0 90 0 1
 device=RESISTOR
 T 14900 57400 5 10 1 1 180 0 1
-refdes=R?
+refdes=R2
 T 14300 56900 5 10 1 1 0 0 1
 value=sr-r-100
 }
@@ -248,7 +248,7 @@ C 16400 56700 1 90 0 resistor-2.sym
 T 16050 57100 5 10 0 0 90 0 1
 device=RESISTOR
 T 16700 57400 5 10 1 1 180 0 1
-refdes=R?
+refdes=R3
 T 16500 56900 5 10 1 1 0 0 1
 value=sr-r-100
 }
@@ -257,7 +257,7 @@ C 13500 51200 1 90 0 resistor-2.sym
 T 13150 51600 5 10 0 0 90 0 1
 device=RESISTOR
 T 13200 51900 5 10 1 1 180 0 1
-refdes=R?
+refdes=R4
 T 12600 51500 5 10 1 1 0 0 1
 value=sr-r-100
 }
@@ -425,7 +425,7 @@ C 14700 52300 1 180 0 resistor-2.sym
 T 14300 51950 5 10 0 0 180 0 1
 device=RESISTOR
 T 14200 52500 5 10 1 1 180 0 1
-refdes=R?
+refdes=R5
 T 14600 52000 5 10 1 1 180 0 1
 value=sr-r-330
 }
@@ -434,7 +434,7 @@ C 14700 51200 1 180 0 resistor-2.sym
 T 14300 50850 5 10 0 0 180 0 1
 device=RESISTOR
 T 14200 51400 5 10 1 1 180 0 1
-refdes=R?
+refdes=R6
 T 14600 50900 5 10 1 1 180 0 1
 value=sr-r-330
 }
@@ -459,7 +459,7 @@ C 14500 49100 1 0 0 TVS-dual-ca.sym
 T 14600 50500 5 10 0 0 0 0 1
 device=TVS
 T 15900 49800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D1
 T 15900 49600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 14500 49100 5 10 0 0 0 0 1
@@ -470,7 +470,7 @@ C 17500 49100 1 0 0 TVS-dual-ca.sym
 T 17600 50500 5 10 0 0 0 0 1
 device=TVS
 T 18900 49800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D2
 T 18900 49600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 17500 49100 5 10 0 0 0 0 1
@@ -521,7 +521,7 @@ N 30200 63600 30200 64000 4
 C 12800 66200 1 0 0 polyfuse-1.sym
 {
 T 12800 66700 5 10 1 1 0 0 1
-refdes=F?
+refdes=F1
 T 12800 67400 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 13600 66500 5 10 1 1 0 0 1
@@ -532,7 +532,7 @@ footprint=1206
 C 12800 65500 1 0 0 polyfuse-1.sym
 {
 T 12800 66000 5 10 1 1 0 0 1
-refdes=F?
+refdes=F2
 T 12800 66700 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 12600 65400 5 10 1 1 0 0 1
@@ -545,7 +545,7 @@ C 14100 64400 1 0 0 TVS-dual-ca.sym
 T 14200 65800 5 10 0 0 0 0 1
 device=TVS
 T 15500 65100 5 10 1 1 0 0 1
-refdes=D?
+refdes=D3
 T 15500 64900 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 14100 64400 5 10 0 0 0 0 1
@@ -556,7 +556,7 @@ C 17100 64400 1 0 0 TVS-dual-ca.sym
 T 17200 65800 5 10 0 0 0 0 1
 device=TVS
 T 18500 65100 5 10 1 1 0 0 1
-refdes=D?
+refdes=D4
 T 18500 64900 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 17100 64400 5 10 0 0 0 0 1
@@ -583,7 +583,7 @@ N 17400 66400 17400 65500 4
 C 12800 62900 1 0 0 polyfuse-1.sym
 {
 T 12800 63400 5 10 1 1 0 0 1
-refdes=F?
+refdes=F3
 T 12800 64100 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 13600 63200 5 10 1 1 0 0 1
@@ -594,7 +594,7 @@ footprint=1206
 C 12800 62200 1 0 0 polyfuse-1.sym
 {
 T 12800 62700 5 10 1 1 0 0 1
-refdes=F?
+refdes=F4
 T 12800 63400 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 12600 62000 5 10 1 1 0 0 1
@@ -607,7 +607,7 @@ C 14100 61100 1 0 0 TVS-dual-ca.sym
 T 14200 62500 5 10 0 0 0 0 1
 device=TVS
 T 15500 61800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D5
 T 15500 61600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 14100 61100 5 10 0 0 0 0 1
@@ -618,7 +618,7 @@ C 17100 61100 1 0 0 TVS-dual-ca.sym
 T 17200 62500 5 10 0 0 0 0 1
 device=TVS
 T 18500 61800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D6
 T 18500 61600 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 17100 61100 5 10 0 0 0 0 1
@@ -665,7 +665,7 @@ netname=TO_Bu
 C 12800 69400 1 0 0 polyfuse-1.sym
 {
 T 12800 69900 5 10 1 1 0 0 1
-refdes=F?
+refdes=F5
 T 12800 70600 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 13600 69700 5 10 1 1 0 0 1
@@ -676,7 +676,7 @@ footprint=1206
 C 12800 68700 1 0 0 polyfuse-1.sym
 {
 T 12800 69200 5 10 1 1 0 0 1
-refdes=F?
+refdes=F6
 T 12800 69900 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 12600 68600 5 10 1 1 0 0 1
@@ -689,7 +689,7 @@ C 14100 67600 1 0 0 TVS-dual-ca.sym
 T 14200 69000 5 10 0 0 0 0 1
 device=TVS
 T 15500 68300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D7
 T 15500 68100 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 14100 67600 5 10 0 0 0 0 1
@@ -700,7 +700,7 @@ C 17100 67600 1 0 0 TVS-dual-ca.sym
 T 17200 69000 5 10 0 0 0 0 1
 device=TVS
 T 18500 68300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D8
 T 18500 68100 5 10 1 1 0 0 1
 value=sr-d-mmbz5v6al
 T 17100 67600 5 10 0 0 0 0 1
@@ -744,7 +744,7 @@ a jumper or a relay :-S
 C 13000 42000 1 0 0 TS1935-1.sym
 {
 T 13300 43200 5 10 1 1 0 0 1
-refdes=IC?
+refdes=IC4
 T 13300 44600 5 10 0 0 0 0 1
 device=TS1935
 T 13300 44000 5 10 0 0 0 0 1
@@ -757,7 +757,7 @@ C 10900 40400 1 90 0 capacitor-1.sym
 T 10200 40600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 11000 41100 5 10 1 1 180 0 1
-refdes=C?
+refdes=C5
 T 10000 40600 5 10 0 0 90 0 1
 symversion=0.1
 T 10800 40600 5 10 1 1 0 0 1
@@ -768,7 +768,7 @@ C 16500 41800 1 180 0 capacitor-1.sym
 T 16300 41100 5 10 0 0 180 0 1
 device=CAPACITOR
 T 16400 41800 5 10 1 1 180 0 1
-refdes=C?
+refdes=C6
 T 16300 40900 5 10 0 0 180 0 1
 symversion=0.1
 T 16200 41400 5 10 1 1 0 0 1
@@ -779,7 +779,7 @@ C 18000 40400 1 90 0 capacitor-1.sym
 T 17300 40600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 18100 41100 5 10 1 1 180 0 1
-refdes=C?
+refdes=C7
 T 17100 40600 5 10 0 0 90 0 1
 symversion=0.1
 T 17900 40600 5 10 1 1 0 0 1
@@ -790,7 +790,7 @@ C 13400 43700 1 0 0 inductor-1.sym
 T 13600 44200 5 10 0 0 0 0 1
 device=INDUCTOR
 T 13600 44000 5 10 1 1 0 0 1
-refdes=L?
+refdes=L1
 T 13600 44400 5 10 0 0 0 0 1
 symversion=0.1
 T 13500 43600 5 10 1 1 0 0 1
@@ -801,7 +801,7 @@ C 15300 40400 1 90 0 resistor-2.sym
 T 14950 40800 5 10 0 0 90 0 1
 device=RESISTOR
 T 15000 41200 5 10 1 1 180 0 1
-refdes=R?
+refdes=R7
 T 15300 40400 5 10 1 1 0 0 1
 value=sr-r-13k3
 T 15300 40400 5 10 0 0 0 0 1
@@ -812,7 +812,7 @@ C 12800 41000 1 90 0 resistor-2.sym
 T 12450 41400 5 10 0 0 90 0 1
 device=RESISTOR
 T 12500 41800 5 10 1 1 180 0 1
-refdes=R?
+refdes=R8
 T 11800 41400 5 10 1 1 0 0 1
 value=sr-r-100k
 T 12800 41000 5 10 0 0 0 0 1
@@ -842,7 +842,7 @@ C 15000 44600 1 270 0 diode-network-2.sym
 T 15500 44700 5 10 0 0 270 0 1
 device=DIODE
 T 15200 44600 5 10 1 1 0 0 1
-refdes=D?
+refdes=D9
 T 16000 44600 5 10 1 1 0 0 1
 value=sr-d-bat754a
 }
@@ -861,7 +861,7 @@ C 16100 42400 1 0 0 resistor-2.sym
 T 16500 42750 5 10 0 0 0 0 1
 device=RESISTOR
 T 16200 42700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R9
 T 16100 42200 5 10 1 1 0 0 1
 value=sr-r-118k
 T 16100 42400 5 10 0 0 0 0 1
@@ -884,7 +884,7 @@ C 19300 46700 1 0 0 12V-plus-1.sym
 C 9100 42700 1 0 0 polyfuse-1.sym
 {
 T 9100 43200 5 10 1 1 0 0 1
-refdes=F?
+refdes=F7
 T 9100 43900 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 8900 42500 5 10 1 1 0 0 1
@@ -898,7 +898,7 @@ N 8500 42900 9100 42900 4
 C 47100 59000 1 0 1 USB-B-1.sym
 {
 T 46800 60500 5 10 1 1 0 6 1
-refdes=J?
+refdes=J2
 T 46800 61500 5 10 0 0 0 6 1
 device=USB-B
 T 46800 60900 5 10 0 0 0 6 1
@@ -917,7 +917,7 @@ C 21700 45800 1 0 1 connector3-1.sym
 T 19900 46700 5 10 0 0 0 6 1
 device=CONNECTOR_3
 T 21700 46900 5 10 1 1 0 6 1
-refdes=J?
+refdes=J3
 T 21700 45600 5 10 1 1 0 6 1
 value=sr-cn-header3
 T 21700 45800 5 10 0 1 0 6 1
@@ -928,7 +928,7 @@ C 15900 46100 1 0 0 connector2-1.sym
 T 16100 47100 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 15900 46900 5 10 1 1 0 0 1
-refdes=J?
+refdes=J4
 T 15900 46100 5 10 0 0 0 0 1
 footprint=camcon2
 T 15100 45900 5 10 1 1 0 0 1
@@ -1131,7 +1131,7 @@ C 52000 51600 1 270 0 led-1.sym
 T 52600 50800 5 10 0 0 270 0 1
 device=LED
 T 52400 51400 5 10 1 1 0 0 1
-refdes=LED?
+refdes=LED1
 T 52800 50800 5 10 0 0 270 0 1
 symversion=0.1
 T 52500 50700 5 10 1 1 0 0 1
@@ -1144,7 +1144,7 @@ C 52300 51900 1 90 0 resistor-2.sym
 T 51950 52300 5 10 0 0 90 0 1
 device=RESISTOR
 T 52600 52600 5 10 1 1 180 0 1
-refdes=R?
+refdes=R10
 T 53000 52300 5 10 1 1 180 0 1
 value=sr-r-330
 }
@@ -1156,7 +1156,7 @@ C 54100 51600 1 270 0 led-1.sym
 T 54700 50800 5 10 0 0 270 0 1
 device=LED
 T 54500 51400 5 10 1 1 0 0 1
-refdes=LED?
+refdes=LED2
 T 54900 50800 5 10 0 0 270 0 1
 symversion=0.1
 T 54600 50700 5 10 1 1 0 0 1
@@ -1169,7 +1169,7 @@ C 54400 51900 1 90 0 resistor-2.sym
 T 54050 52300 5 10 0 0 90 0 1
 device=RESISTOR
 T 54700 52600 5 10 1 1 180 0 1
-refdes=R?
+refdes=R11
 T 55100 52300 5 10 1 1 180 0 1
 value=sr-r-330
 }
@@ -1181,7 +1181,7 @@ C 47800 51600 1 270 0 led-1.sym
 T 48400 50800 5 10 0 0 270 0 1
 device=LED
 T 48200 51400 5 10 1 1 0 0 1
-refdes=LED?
+refdes=LED3
 T 48600 50800 5 10 0 0 270 0 1
 symversion=0.1
 T 48300 50700 5 10 1 1 0 0 1
@@ -1194,7 +1194,7 @@ C 48100 51900 1 90 0 resistor-2.sym
 T 47750 52300 5 10 0 0 90 0 1
 device=RESISTOR
 T 48400 52600 5 10 1 1 180 0 1
-refdes=R?
+refdes=R12
 T 48800 52300 5 10 1 1 180 0 1
 value=sr-r-330
 }
@@ -1206,7 +1206,7 @@ C 49900 51600 1 270 0 led-1.sym
 T 50500 50800 5 10 0 0 270 0 1
 device=LED
 T 50300 51400 5 10 1 1 0 0 1
-refdes=LED?
+refdes=LED4
 T 50700 50800 5 10 0 0 270 0 1
 symversion=0.1
 T 50400 50700 5 10 1 1 0 0 1
@@ -1219,7 +1219,7 @@ C 50200 51900 1 90 0 resistor-2.sym
 T 49850 52300 5 10 0 0 90 0 1
 device=RESISTOR
 T 50500 52600 5 10 1 1 180 0 1
-refdes=R?
+refdes=R13
 T 50900 52300 5 10 1 1 180 0 1
 value=sr-r-330
 }
