@@ -149,7 +149,9 @@ refdes=J1
 T 31000 59100 5 10 0 0 0 6 1
 device=MSP430-4WIRE
 T 31000 59500 5 10 0 0 0 6 1
-footprint=sr-cn-header2x7-box
+footprint=header2x7_box_1
+T 29600 55400 5 10 1 1 0 0 1
+value=sr-cn-header2x7-box
 }
 N 31300 55700 31500 55700 4
 N 31500 55700 31500 55400 4
