@@ -1,0 +1,3 @@
+schematics pc-sric.sch
+output-name pc-sric
+elements-dir ./components/pkg
