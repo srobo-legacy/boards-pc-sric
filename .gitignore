@@ -1,4 +1,5 @@
 *.sch.save
-#*#
+\#*#
 *.cmd
 *.net
+*.pcb-
