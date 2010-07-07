@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Wed Jul  7 01:12:54 2010
+# date:    Wed Jul  7 01:38:48 2010
 # user:    rob (Robert Spanton)
 # host:    zarniwoop.blob
 
@@ -8,13 +8,13 @@ FileVersion[20070407]
 
 PCB["" 600000 500000]
 
-Grid[10000.000000 0 0 0]
+Grid[7874.015625 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,uniquename,clearnew,snappin")
-Groups("1,c:2,s:3:4:5:6:7:8")
+Groups("1,c:2,s:3:4")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
 Symbol(' ' 18)
@@ -1625,25 +1625,13 @@ Layer(2 "solder")
 Layer(3 "outline")
 (
 )
-Layer(4 "GND")
+Layer(4 "power")
 (
 )
-Layer(5 "power")
+Layer(5 "silk")
 (
 )
-Layer(6 "signal1")
-(
-)
-Layer(7 "signal2")
-(
-)
-Layer(8 "signal3")
-(
-)
-Layer(9 "silk")
-(
-)
-Layer(10 "silk")
+Layer(6 "silk")
 (
 )
 NetList()
