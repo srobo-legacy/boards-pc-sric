@@ -3,3 +3,5 @@
 *.cmd
 *.net
 *.pcb-
+*.new.pcb
+*.pcb.bak
