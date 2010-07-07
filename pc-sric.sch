@@ -13,7 +13,7 @@ comment=OUT
 C 48700 55300 1 0 0 FT232RL-1.sym
 {
 T 51500 60900 5 10 1 1 0 6 1
-refdes=IC1
+refdes=IC5
 T 50100 61100 5 10 0 0 0 0 1
 device=FT232RL
 T 50100 61300 5 10 0 0 0 0 1
@@ -24,7 +24,7 @@ value=sr-ic-ft232rl
 C 38400 39600 1 0 0 MSP430F167.sym
 {
 T 41100 60900 5 10 1 1 0 6 1
-refdes=IC2
+refdes=IC6
 T 39700 61100 5 10 0 0 0 0 1
 device=msp430f167
 T 39700 61300 5 10 0 0 0 0 1
