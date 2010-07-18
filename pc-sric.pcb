@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Jul 18 14:50:39 2010
+# date:    Sun Jul 18 14:54:18 2010
 # user:    rob (Robert Spanton)
 # host:    zarniwoop.blob
 
@@ -3081,9 +3081,17 @@ Layer(2 "solder")
 )
 Layer(3 "component-GND")
 (
+	Polygon("clearpoly")
+	(
+		[0 0] [248031 0] [248031 224409] [0 224409] 
+	)
 )
 Layer(4 "solder-GND")
 (
+	Polygon("clearpoly")
+	(
+		[0 0] [248031 0] [248031 224409] [0 224409] 
+	)
 )
 Layer(5 "outline")
 (
