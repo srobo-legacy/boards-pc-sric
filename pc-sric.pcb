@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Jul 18 15:19:06 2010
+# date:    Sun Jul 18 16:13:39 2010
 # user:    rob (Robert Spanton)
 # host:    zarniwoop.blob
 
@@ -8,12 +8,12 @@ FileVersion[20100606]
 
 PCB["" 248031 224409]
 
-Grid[39.370079 0 0 0]
+Grid[984.251953 0 0 1]
 Cursor[0 224409 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 669 1969 787]
-Flags("showdrc,rubberband,nameonpcb,autodrc,clearnew,liveroute,locknames,hidenames")
+Flags("showdrc,rubberband,nameonpcb,autodrc,clearnew,liveroute")
 Groups("1,3,c:2,4,s:5")
 Styles["Signal,984,3937,1969,984:Power,1969,3937,1969,984:Fat,3937,4724,1969,1000:Skinny,787,3937,1969,984"]
 
@@ -946,7 +946,7 @@ Element["" "MSOP10" "IC2" "sr-ic-dg2731dq" 93584 67401 -3913 -3158 2 100 ""]
 	Pad[-1000 0 1600 0 1200 3000 1800 "1" "1" "edge2"]
 	Pad[-1000 -2000 1600 -2000 1200 3000 1800 "2" "2" "square,edge2"]
 	Pad[-1000 -4000 1600 -4000 1200 3000 1800 "3" "3" "square,edge2"]
-	Pad[-1000 -5900 1600 -5900 1200 3000 1800 "4" "4" "square,edge2"]
+	Pad[-1000 -5900 1600 -5900 1200 3000 1800 "4" "4" "found,square,edge2"]
 	Pad[-1000 -7900 1600 -7900 1200 3000 1800 "5" "5" "square,edge2"]
 	Pad[-17500 -8000 -14900 -8000 1200 3000 1800 "6" "6" "square"]
 	Pad[-17500 -6000 -14900 -6000 1200 3000 1800 "7" "7" "square"]
@@ -1665,15 +1665,15 @@ Element["onsolder" "sr_0603" "C6" "sr-c-220p-50v" 180433 176536 0 0 2 100 "auto"
 
 Element["onsolder" "TSSOP16" "IC3" "sr-ic-sn65lvds051" 115039 99016 -2000 6000 0 100 "auto"]
 (
-	Pad[-13917 8956 -9311 8956 1299 1000 2299 "1" "1" "onsolder,square"]
-	Pad[-13917 6397 -9311 6397 1299 1000 2299 "2" "2" "onsolder,square"]
-	Pad[-13917 3838 -9311 3838 1299 1000 2299 "3" "3" "onsolder,square"]
+	Pad[-13917 8956 -9311 8956 1299 1976 2299 "1" "1" "onsolder,square"]
+	Pad[-13917 6397 -9311 6397 1299 1976 2299 "2" "2" "onsolder,square"]
+	Pad[-13917 3838 -9311 3838 1299 2776 2299 "3" "3" "onsolder,square"]
 	Pad[-13917 1279 -9311 1279 1299 1000 2299 "4" "4" "onsolder,square"]
 	Pad[-13917 -1279 -9311 -1279 1299 1000 2299 "5" "5" "onsolder,square"]
 	Pad[-13917 -3838 -9311 -3838 1299 1000 2299 "6" "6" "onsolder,square"]
 	Pad[-13917 -6397 -9311 -6397 1299 1000 2299 "7" "7" "onsolder,square"]
 	Pad[-13917 -8956 -9311 -8956 1299 1000 2299 "8" "8" "onsolder,square"]
-	Pad[9311 -8956 13917 -8956 1299 1000 2299 "9" "9" "onsolder,square,edge2"]
+	Pad[9311 -8956 13917 -8956 1299 1976 2299 "9" "9" "onsolder,square,edge2"]
 	Pad[9311 -6397 13917 -6397 1299 1000 2299 "10" "10" "onsolder,square,edge2"]
 	Pad[9311 -3838 13917 -3838 1299 1000 2299 "11" "11" "onsolder,square,edge2"]
 	Pad[9311 -1279 13917 -1279 1299 1000 2299 "12" "12" "onsolder,square,edge2"]
@@ -2372,6 +2372,21 @@ Layer(1 "component")
 	Line[60827 140315 60827 155512 984 1968 "clearline"]
 	Line[60827 155512 69252 163937 984 1968 "clearline"]
 	Line[69252 163937 75709 163937 984 1968 "clearline"]
+	Line[42519 209646 39369 211221 1100 1600 "clearline"]
+	Line[37794 207284 42519 209646 1100 2000 "clearline"]
+	Line[37794 207284 43700 205315 1100 2000 "clearline"]
+	Line[43700 205315 49605 207284 1100 2000 "clearline"]
+	Line[49605 207284 44881 209646 1100 2000 "clearline"]
+	Line[44881 209646 48030 211221 1100 2000 "clearline"]
+	Line[48030 211221 49605 212402 1100 1600 "clearline"]
+	Line[39369 211221 37794 212402 1100 2000 "clearline"]
+	Arc[43700 208859 8858 8858 984 1968 90 90 "clearline"]
+	Arc[43702 208857 8860 8860 984 1968 0 90 "clearline"]
+	Arc[43699 208857 8857 8857 984 1968 -90 90 "clearline"]
+	Arc[43699 208859 8859 8859 984 1968 180 90 "clearline"]
+	Text[59055 195867 0 144 "srobo.org" ""]
+	Text[59055 206693 0 100 "PC-SRIC" ""]
+	Text[59055 215551 0 100 "SR11.P1" ""]
 )
 Layer(2 "solder")
 (
@@ -3080,7 +3095,8 @@ Layer(3 "component-GND")
 (
 	Polygon("clearpoly")
 	(
-		[0 0] [248031 0] [248031 224409] [0 224409] 
+		[0 0] [248031 0] [248031 224409] [104331 224409] [104331 192913] 
+		[0 192913] 
 	)
 )
 Layer(4 "solder-GND")
