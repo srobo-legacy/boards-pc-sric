@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Jul 18 14:45:43 2010
+# date:    Sun Jul 18 14:50:39 2010
 # user:    rob (Robert Spanton)
 # host:    zarniwoop.blob
 
@@ -14,7 +14,7 @@ PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 669 1969 787]
 Flags("showdrc,rubberband,nameonpcb,autodrc,clearnew,liveroute,locknames,hidenames")
-Groups("1,c:2,s:3")
+Groups("1,3,c:2,4,s:5")
 Styles["Signal,984,3937,1969,984:Power,1969,3937,1969,984:Fat,3937,4724,1969,1000:Skinny,787,3937,1969,984"]
 
 Symbol(' ' 18)
@@ -3079,13 +3079,19 @@ Layer(2 "solder")
 	Line[194998 49841 193622 48465 984 1968 "clearline"]
 	Line[193622 48465 193622 42441 2484 1968 "clearline"]
 )
-Layer(3 "outline")
+Layer(3 "component-GND")
 (
 )
-Layer(4 "silk")
+Layer(4 "solder-GND")
 (
 )
-Layer(5 "silk")
+Layer(5 "outline")
+(
+)
+Layer(6 "silk")
+(
+)
+Layer(7 "silk")
 (
 )
 NetList()
