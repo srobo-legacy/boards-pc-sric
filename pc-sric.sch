@@ -210,7 +210,7 @@ refdes=IC1
 T 26300 64600 5 10 0 0 0 0 1
 device=DG2731
 T 26300 64200 5 10 0 0 0 0 1
-footprint=MSOP10
+footprint=sr_msop10
 T 26300 62600 5 10 1 1 0 0 1
 value=sr-ic-dg2731dq
 }
@@ -221,7 +221,7 @@ refdes=IC1
 T 11400 60500 5 10 0 0 0 0 1
 device=DG2731
 T 11400 60100 5 10 0 0 0 0 1
-footprint=MSOP10
+footprint=sr_msop10
 T 11900 58900 5 10 1 1 0 0 1
 value=sr-ic-dg2731dq
 T 11400 59700 5 10 0 0 0 0 1
@@ -234,7 +234,7 @@ refdes=IC2
 T 18000 60500 5 10 0 0 0 6 1
 device=DG2731
 T 18000 60100 5 10 0 0 0 6 1
-footprint=MSOP10
+footprint=sr_msop10
 T 17600 58900 5 10 1 1 0 6 1
 value=sr-ic-dg2731dq
 T 18000 59700 5 10 0 0 0 6 1
@@ -285,7 +285,7 @@ refdes=IC1
 T 11400 53700 5 10 0 0 180 6 1
 device=DG2731
 T 11400 54100 5 10 0 0 180 6 1
-footprint=MSOP10
+footprint=sr_msop10
 T 11900 55300 5 10 1 1 180 6 1
 value=sr-ic-dg2731dq
 T 11400 54500 5 10 0 0 180 6 1
@@ -298,7 +298,7 @@ refdes=IC2
 T 18000 53700 5 10 0 0 180 0 1
 device=DG2731
 T 18000 54100 5 10 0 0 180 0 1
-footprint=MSOP10
+footprint=sr_msop10
 T 17500 55300 5 10 1 1 180 0 1
 value=sr-ic-dg2731dq
 T 18000 54500 5 10 0 0 180 0 1
@@ -311,7 +311,7 @@ refdes=IC2
 T 24100 64600 5 10 0 0 0 0 1
 device=DG2731
 T 24100 64200 5 10 0 0 0 0 1
-footprint=MSOP10
+footprint=sr_msop10
 T 24100 62600 5 10 1 1 0 0 1
 value=sr-ic-dg2731dq
 }
