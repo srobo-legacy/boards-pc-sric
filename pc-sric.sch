@@ -1451,7 +1451,7 @@ footprint=SOT25_2
 T 13400 43600 5 10 0 0 0 0 1
 device=LM2704
 T 15200 42900 5 10 1 1 0 0 1
-refdes=IC?
+refdes=IC4
 T 14500 41500 5 10 1 1 0 0 1
 value=sr-ic-lm2704
 }
@@ -1465,7 +1465,7 @@ C 16100 42900 1 0 0 capacitor-1.sym
 T 16300 43600 5 10 0 0 0 0 1
 device=CAPACITOR
 T 16700 43200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C6
 T 16300 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 16100 42900 5 10 0 0 0 0 1
