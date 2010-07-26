@@ -794,7 +794,7 @@ symversion=0.1
 T 13300 44000 5 10 1 1 0 0 1
 value=sr-l-10u-1150mA
 T 13900 43700 5 10 0 0 0 0 1
-footprint=1008
+footprint=sr_1515
 }
 C 16000 40500 1 90 0 resistor-2.sym
 {
